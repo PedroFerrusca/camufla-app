@@ -66,7 +66,7 @@ docker compose up -d db
 Start the development server:
 
 ```shell
-uv run fastapi dev app/main.py
+uv run python -m app.main
 ```
 
 Once running, access:
